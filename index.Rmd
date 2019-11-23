@@ -1,5 +1,5 @@
 ---
-title: "Insitute for Transport Studies on GitHub"
+title: "Institute for Transport Studies on GitHub"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{readme}
@@ -12,7 +12,7 @@ vignette: >
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-This is the central place to find package, code, and courses developed by the [Insitute for Transport Studies](https://environment.leeds.ac.uk/transport) at the [University of Leeds](https://www.leeds.ac.uk/), UK.
+This is the central place to find package, code, and courses developed by the [Institute for Transport Studies](https://environment.leeds.ac.uk/transport) at the [University of Leeds](https://www.leeds.ac.uk/), UK.
 
 ## R Packages / Software
 
@@ -26,7 +26,7 @@ An interface to the cycle routing/data services provided by 'CycleStreets', a no
 [![Coverage status](https://codecov.io/gh/ITSLeeds/opentripplanner/branch/master/graph/badge.svg)](https://codecov.io/github/ITSLeeds/opentripplanner?branch=master) 
 [![Build status](https://ci.appveyor.com/api/projects/status/gqp3smc04as3qg85?svg=true)](https://ci.appveyor.com/project/layik/opentripplanner-05ana) [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
-The goal of OpenTripPlanner for R is to provide a simple R interface to [OpenTripPlanner (OTP)](https://www.opentripplanner.org/). The OTP is a multimodal trip planning service written in Java. This R package makes it easy to setup OTP and get OTP's results into R.
+The goal of OpenTripPlanner for R is to provide a simple R interface to [OpenTripPlanner (OTP)](https://www.opentripplanner.org/). The OTP is a multimodal trip planning service written in Java. This R package makes it easy to set up OTP and get OTP's results into R.
 
 ### [pct](https://github.com/ITSLeeds/pct)
 
@@ -61,7 +61,7 @@ stats19 provides functions for downloading and formatting road crash data. Speci
 <!-- [![lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing) -->
 [![](https://badges.ropensci.org/10_status.svg)](https://github.com/ropensci/onboarding/issues/10)
 
-stplanr is a package for sustainable transport planning with R. It provides functions for solving common problems in transport planning and modelling, such as how to best get from point A to point B. The overall aim is to provide a reproducible, transparent and accessible toolkit to help people better understand transport systems and inform policy, as outlined in a [paper](https://journal.r-project.org/archive/2018/RJ-2018-053/index.html) about the package, and the potential for open source software in transport planning in general.
+stplanr is a package for sustainable transport planning with R. It provides functions for solving common problems in transport planning and modelling, such as how to best get from point A to point B. The overall aim is to provide a reproducible, transparent and accessible toolkit to help people better understand transport systems and inform policy, as outlined in a [paper](https://journal.r-project.org/archive/2018/RJ-2018-053/index.html) about the package, and the potential for open-source software in transport planning in general.
 
 
 ## ITS Courses
