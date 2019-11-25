@@ -30,7 +30,7 @@ The goal of OpenTripPlanner for R is to provide a simple R interface to [OpenTri
 
 ### [pct](https://github.com/ITSLeeds/pct)
 
-<!-- [![](http://www.r-pkg.org/badges/version/pct)](http://www.r-pkg.org/pkg/pct) -->
+[![](http://www.r-pkg.org/badges/version/pct)](http://www.r-pkg.org/pkg/pct)
 [![Coverage status](https://codecov.io/gh/ITSLeeds/pct/branch/master/graph/badge.svg)](https://codecov.io/github/ITSLeeds/pct?branch=master) 
 [![Travis build status](https://travis-ci.org/ITSLeeds/pct.svg?branch=master)](https://travis-ci.org/ITSLeeds/pct)
 
@@ -42,11 +42,11 @@ An academic [paper](https://www.jtlu.org/index.php/jtlu/article/view/862) on the
 
 ### [stats19](https://docs.ropensci.org/stats19/)
 
-<!-- [![](http://www.r-pkg.org/badges/version/stats19)](http://www.r-pkg.org/pkg/stats19) -->
+[![](http://www.r-pkg.org/badges/version/stats19)](http://www.r-pkg.org/pkg/stats19)
 [![Travis build status](https://travis-ci.org/ropensci/stats19.svg?branch=master)](https://travis-ci.org/ropensci/stats19)
 [![codecov](https://codecov.io/gh/ropensci/stats19/branch/master/graph/badge.svg)](https://codecov.io/gh/ropensci/stats19)
-<!-- [![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/grand-total/stats19)](http://www.r-pkg.org/pkg/stats19) -->
-<!-- [![Life cycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/) -->
+[![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/grand-total/stats19)](http://www.r-pkg.org/pkg/stats19)
+[![Life cycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://www.tidyverse.org/lifecycle/)
 [![](https://badges.ropensci.org/266_status.svg)](https://github.com/ropensci/onboarding/issues/266)
 [![DOI](http://joss.theoj.org/papers/10.21105/joss.01181/status.svg)](https://doi.org/10.21105/joss.01181)
 
@@ -55,10 +55,10 @@ stats19 provides functions for downloading and formatting road crash data. Speci
 ### [stplanr](https://docs.ropensci.org/stplanr/) <a href='https://docs.ropensci.org/stplanr/'><img src='images/stplanr.png' align="right" height=180/></a>
 
 [![Build Status](https://travis-ci.org/ropensci/stplanr.svg?branch=master)](https://travis-ci.org/ropensci/stplanr)
-<!-- [![rstudio mirror downloads](http://cranlogs.r-pkg.org/badges/stplanr)](https://github.com/metacran/cranlogs.app) -->
-<!-- [![](https://cranlogs.r-pkg.org/badges/grand-total/stplanr)](https://cran.r-project.org/package=stplanr) -->
-<!-- [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/stplanr)](https://cran.r-project.org/package=stplanr) -->
-<!-- [![lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing) -->
+[![rstudio mirror downloads](http://cranlogs.r-pkg.org/badges/stplanr)](https://github.com/metacran/cranlogs.app)
+[![](https://cranlogs.r-pkg.org/badges/grand-total/stplanr)](https://cran.r-project.org/package=stplanr)
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/stplanr)](https://cran.r-project.org/package=stplanr)
+[![lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
 [![](https://badges.ropensci.org/10_status.svg)](https://github.com/ropensci/onboarding/issues/10)
 
 stplanr is a package for sustainable transport planning with R. It provides functions for solving common problems in transport planning and modelling, such as how to best get from point A to point B. The overall aim is to provide a reproducible, transparent and accessible toolkit to help people better understand transport systems and inform policy, as outlined in a [paper](https://journal.r-project.org/archive/2018/RJ-2018-053/index.html) about the package, and the potential for open-source software in transport planning in general.
