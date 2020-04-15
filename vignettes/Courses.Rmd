@@ -14,6 +14,25 @@ knitr::opts_chunk$set(
 )
 ```
 
-## [Go: Easy set up for R courses from ITS](https://github.com/ITSLeeds/go)  <a href='https://github.com/ITSLeeds/go'><img src='https://raw.githubusercontent.com/ITSLeeds/go/master/logo.jpg' align="right" height=180/></a>
+## [Go: Easy set up for R courses from ITS](https://github.com/ITSLeeds/go)  
+
+<a href='https://github.com/ITSLeeds/go'><img src='https://raw.githubusercontent.com/ITSLeeds/go/master/logo.jpg' align="right" height=180/></a>
+
+By Malcolm Morgan
 
 This Repo contains code that helps set up your computer and R session for ITS Courses or to use ITS developed R packages.
+
+## [QGIS for Transport Research](https://itsleeds.github.io/QGIS-intro/)
+
+This resource was developed to support the workshops to teaching geographic methods in transport, and accessibility analysis with QGIS in particular. The booklet accompanies teaching delivered on MSc degrees in transport to students at the Institute for Transport Studies (ITS) at the University of Leeds. It is a practical workshop so, before getting started, it is recommended that you ensure you have QGIS installed on your computer. Check it is installed on a Windows computer by pressing the Windows ‘start’ button and searching for QGIS, for example. You are encouraged to install QGIS on your own computer to have more control over it.
+
+## [Transport Data Science](https://github.com/ITSLeeds/TDS)
+
+This repo supports teaching of the Transport Data Science module at the University of Leeds.
+
+The module catalogue can be found at catalogue.md. The code accompanying the course can be found in the code folders. To run this code you will need R and Python installed plus various packages and libraries. This software has been packaged-up into a docker container to ease teaching.
+
+## [motCarData](https://github.com/ITSLeeds/motCarData)
+
+The goal of motCarData is to enable quick, convenient and reproducible access to open ‘MOT’ datasets on car characteristics provided by .gov.uk.
+

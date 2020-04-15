@@ -88,3 +88,19 @@ By: Robin Lovelace
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/stplanr)](https://cran.r-project.org/package=stplanr)
 
 stplanr is a package for sustainable transport planning with R. It provides functions for solving common problems in transport planning and modelling, such as how to best get from point A to point B. The overall aim is to provide a reproducible, transparent and accessible toolkit to help people better understand transport systems and inform policy, as outlined in a [paper](https://journal.r-project.org/archive/2018/RJ-2018-053/index.html) about the package, and the potential for open-source software in transport planning in general.
+
+
+## [roadworksUK](https://github.com/ITSLeeds/roadworksUK)
+
+By Robin Lovelace, Malcolm Morgan
+
+The goal of roadworksUK is to enable you to access, process and visualise data on UK roadworks, particularly Electronic Transfer of Notifications (EToN) records.
+
+
+## [OSMtools](https://github.com/ITSLeeds/OSMtools)
+
+By Malcolm Morgan
+
+R wrappers for OSM Filter and OSM Convert and functions for downloading from geofabrik. The package makes it easier to download and use large Open Street Map files with R.
+
+
