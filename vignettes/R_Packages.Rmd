@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 
 Downloads of packages published on CRAN
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, eval = FALSE}
 x <- dlstats::cran_stats(c("cyclestreets", "opentripplanner", "pct", "stats19","stplanr"))
 
    ggplot2::ggplot(x, ggplot2::aes(end, downloads, group=package, color=package)) +
