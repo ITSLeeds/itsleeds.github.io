@@ -19,7 +19,8 @@ knitr::opts_chunk$set(
 
 An interface to the cycle routing/data services provided by 'CycleStreets', a not-for-profit social enterprise and advocacy organisation. The application programming interfaces (APIs) provided by 'CycleStreets' are documented at (<https://www.cyclestreets.net/api/>). The focus of this package is the journey planning API, which aims to emulate the routes taken by a knowledgeable cyclist. An innovative feature of the routing service of its provision of fastest, quietest and balanced profiles. These represent routes taken to minimise time, avoid traffic and compromise between the two, respectively.
 
-## [OpenTripPlanner for R](https://docs.ropensci.org/opentripplanner) <a href='https://docs.ropensci.org/opentripplanner'><img src='https://raw.githubusercontent.com/ropensci/opentripplanner/master/man/figures/logo.png' align="right" height=180/></a>
+## [OpenTripPlanner for R](https://docs.ropensci.org/opentripplanner) 
+<a href='https://docs.ropensci.org/opentripplanner'><img src='https://raw.githubusercontent.com/ropensci/opentripplanner/master/man/figures/logo.png' align="right" height=180/></a>
 
 [![](https://badges.ropensci.org/295_status.svg)](https://github.com/ropensci/onboarding/issues/295)
 [![status](https://joss.theoj.org/papers/a08bf8a245f529c60daf6c6abfdc0736/status.svg)](https://joss.theoj.org/papers/a08bf8a245f529c60daf6c6abfdc0736)
@@ -27,6 +28,14 @@ An interface to the cycle routing/data services provided by 'CycleStreets', a no
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/opentripplanner)](https://cran.r-project.org/package=opentripplanner)
 
 The goal of OpenTripPlanner for R is to provide a simple R interface to [OpenTripPlanner (OTP)](https://www.opentripplanner.org/). The OTP is a multimodal trip planning service written in Java. This R package makes it easy to set up OTP and get OTP's results into R.
+
+## [UK2GTFS](https://itsleeds.github.io/UK2GTFS/) 
+<a href='https://itsleeds.github.io/UK2GTFS/'><img src='https://raw.githubusercontent.com/ITSLeeds/UK2GTFS/master/man/figures/logo.png' align="right" height=180/></a>
+
+[![](https://cranlogs.r-pkg.org/badges/grand-total/UK2GFTS)](https://cran.r-project.org/package=UK2GFTS)
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/UK2GFTS)](https://cran.r-project.org/package=UK2GFTS)
+
+The goal of UK2GTFS is to convert train, tram, bus, and metro timetable data from the unfriendly and difficult to use formats used in the UK to the easy to use GTFS format. The main purpose of developing the package is to support using OpenTripPlanner in the UK.
 
 ## [pct](https://github.com/ITSLeeds/pct)
 
@@ -37,16 +46,9 @@ The goal of pct is to increase the accessibility and reproducibility of the data
 For an overview of the data provided by the PCT, clicking on the previous link and trying it out is a great place to start.
 An academic [paper](https://www.jtlu.org/index.php/jtlu/article/view/862) on the PCT provides detail on the motivations for and methods underlying the project.
 
-## [UK2GTFS](https://itsleeds.github.io/UK2GTFS/) <a href='https://itsleeds.github.io/UK2GTFS/'><img src='https://raw.githubusercontent.com/ITSLeeds/UK2GTFS/master/man/figures/logo.png' align="right" height=180/></a>
+## [stats19](https://docs.ropensci.org/stats19/) 
 
-[![](https://cranlogs.r-pkg.org/badges/grand-total/UK2GFTS)](https://cran.r-project.org/package=UK2GFTS)
-[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/UK2GFTS)](https://cran.r-project.org/package=UK2GFTS)
-
-The goal of UK2GTFS is to convert train, tram, bus, and metro timetable data from the unfriendly and difficult to use formats used in the UK to the easy to use GTFS format. The main purpose of developing the package is to support using OpenTripPlanner in the UK.
-
-
-
-## [stats19](https://docs.ropensci.org/stats19/) <a href='https://docs.ropensci.org/stats19/'><img src='https://raw.githubusercontent.com/ropensci/stats19/master/man/figures/logo.png' align="right" height=180/></a>
+<a href='https://docs.ropensci.org/stats19/'><img src='https://raw.githubusercontent.com/ropensci/stats19/master/man/figures/logo.png' align="right" height=180/></a>
 
 [![](https://badges.ropensci.org/266_status.svg)](https://github.com/ropensci/onboarding/issues/266)
 [![DOI](http://joss.theoj.org/papers/10.21105/joss.01181/status.svg)](https://doi.org/10.21105/joss.01181)
@@ -55,7 +57,9 @@ The goal of UK2GTFS is to convert train, tram, bus, and metro timetable data fro
 
 stats19 provides functions for downloading and formatting road crash data. Specifically, it enables access to the UK’s official road traffic casualty database, STATS19. (The name comes from the form used by the police to record car crashes and other incidents resulting in casualties on the roads.)
 
-## [stplanr](https://docs.ropensci.org/stplanr/) <a href='https://docs.ropensci.org/stplanr/'><img src='https://docs.ropensci.org/stplanr/reference/figures/stplanr.png' align="right" height=180/></a>
+## [stplanr](https://docs.ropensci.org/stplanr/) 
+
+<a href='https://docs.ropensci.org/stplanr/'><img src='https://docs.ropensci.org/stplanr/reference/figures/stplanr.png' align="right" height=180/></a>
 
 [![](https://badges.ropensci.org/10_status.svg)](https://github.com/ropensci/onboarding/issues/10)
 [![](https://cranlogs.r-pkg.org/badges/grand-total/stplanr)](https://cran.r-project.org/package=stplanr)
