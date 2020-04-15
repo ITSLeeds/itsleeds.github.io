@@ -14,8 +14,15 @@ build_site <- function(){
   pkgdown::build_site()
   
   # Copy to home directory
-  rawPath <- "docs"
-  dataPath <- "./"
-  dataFiles <- list.files(rawPath, full.names = TRUE, recursive = TRUE) 
-  file.copy(dataFiles, dataPath, overwrite = TRUE)
+  dataFiles <- list.files("docs", full.names = TRUE) 
+  file.copy(dataFiles, "./", overwrite = TRUE)
+  
+  dataFiles <- list.files("docs/articles/", full.names = TRUE) 
+  file.copy(dataFiles, "./articles", overwrite = TRUE)
+  
+  dir.create("articles/images")
+  dataFiles <- list.files("docs/articles/images", full.names = TRUE) 
+  file.copy(dataFiles, "./articles/images", overwrite = TRUE)
+  
+  
 }
