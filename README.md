@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# ITS Leeds on GitHub <img src='itslogo.png' align="right" height=100/>
+# ITS Leeds on GitHub <img src='https://www.ciht.org.uk/media/8292/leeds-its-logo.png' align="right" height=100/>
 
 This is the central place to find package, code, and courses developed
 by the [Institute for Transport
