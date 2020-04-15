@@ -14,6 +14,18 @@ knitr::opts_chunk$set(
 )
 ```
 
+## Download Stats
+
+Downloads of packages published on CRAN
+
+```{r, echo=FALSE}
+x <- dlstats::cran_stats(c("cyclestreets", "opentripplanner", "pct", "stats19","stplanr"))
+
+   ggplot2::ggplot(x, ggplot2::aes(end, downloads, group=package, color=package)) +
+       ggplot2::geom_line() + ggplot2::geom_point(ggplot2::aes(shape=package))
+
+```
+
 
 ## [cyclestreets: Cycle Routing and Data for Cycling Advocacy](https://cran.r-project.org/web/packages/cyclestreets/index.html)
 
