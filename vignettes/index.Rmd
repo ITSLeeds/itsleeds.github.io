@@ -1,8 +1,10 @@
 ---
 title: "Institute for Transport Studies on GitHub"
+author: "Malcolm Morgan"
+date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{readme}
+  %\VignetteIndexEntry{ITS}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---

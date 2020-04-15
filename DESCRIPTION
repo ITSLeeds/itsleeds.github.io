@@ -1,0 +1,27 @@
+Package: ITSLeeds
+Type: Package
+Title: ITS Leeds on GitHub
+Version: 0.1.0
+Authors@R: c(
+    person("Malcolm", "Morgan", email = "m.morgan1@leeds.ac.uk", role = c("aut","cre"), 
+      comment = c(ORCID = "0000-0002-9488-9183")),
+    person("Robin", "Lovelace", email = "rob00x@gmail.com",      role = c("aut"),
+      comment = c(ORCID = "0000-0001-5679-6536"))
+    )
+Maintainer: Malcolm Morgan <m.morgan1@leeds.ac.uk>
+Description: An unoffical website for ITS work on GitHub.
+Language: EN-GB
+License: file LICENSE
+URL: https://itsleeds.github.io/
+BugReports: https://github.com/ITSLeeds/itsleeds.github.io/issues
+Encoding: UTF-8
+LazyData: true
+Imports:
+    pkgdown,
+RoxygenNote: 7.1.0
+Suggests: 
+    covr,
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
