@@ -11,6 +11,7 @@ build_site <- function(){
   unlink("articles", recursive = TRUE)
   dir.create("articles")
   # Build the site
+  devtools::document()
   pkgdown::build_site()
   
   # Copy to home directory
@@ -24,5 +25,16 @@ build_site <- function(){
   dataFiles <- list.files("docs/articles/images", full.names = TRUE) 
   file.copy(dataFiles, "./articles/images", overwrite = TRUE)
   
+  dir.create("articles/images/R_Packages_files")
+  dataFiles <- list.files("docs/articles/images/R_Packages_files", full.names = TRUE) 
+  file.copy(dataFiles, "./articles/images/R_Packages_files", overwrite = TRUE)
   
+  dir.create("articles/images/R_Packages_files/figure-html")
+  dataFiles <- list.files("docs/articles/images/R_Packages_files/figure-html", full.names = TRUE) 
+  file.copy(dataFiles, "./articles/images/R_Packages_files/figure-html", overwrite = TRUE)
+  
+  
+  dir.create("reference")
+  dataFiles <- list.files("docs/reference", full.names = TRUE) 
+  file.copy(dataFiles, "./reference", overwrite = TRUE)
 }
