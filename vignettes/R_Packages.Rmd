@@ -27,6 +27,8 @@ An interface to the cycle routing/data services provided by 'CycleStreets', a no
 [![](https://cranlogs.r-pkg.org/badges/grand-total/opentripplanner)](https://cran.r-project.org/package=opentripplanner)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/opentripplanner)](https://cran.r-project.org/package=opentripplanner)
 
+By: Malcolm Morgan, Marcus Young, Robin Lovelace, Layik Hama
+
 The goal of OpenTripPlanner for R is to provide a simple R interface to [OpenTripPlanner (OTP)](https://www.opentripplanner.org/). The OTP is a multimodal trip planning service written in Java. This R package makes it easy to set up OTP and get OTP's results into R.
 
 ## [UK2GTFS](https://itsleeds.github.io/UK2GTFS/) 
@@ -35,18 +37,22 @@ The goal of OpenTripPlanner for R is to provide a simple R interface to [OpenTri
 [![](https://cranlogs.r-pkg.org/badges/grand-total/UK2GFTS)](https://cran.r-project.org/package=UK2GFTS)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/UK2GFTS)](https://cran.r-project.org/package=UK2GFTS)
 
+By: Malcolm Morgan
+
 The goal of UK2GTFS is to convert train, tram, bus, and metro timetable data from the unfriendly and difficult to use formats used in the UK to the easy to use GTFS format. The main purpose of developing the package is to support using OpenTripPlanner in the UK.
 
-## [pct](https://github.com/ITSLeeds/pct)
+## [pct](https://itsleeds.github.io/pct/)
 
 [![](https://cranlogs.r-pkg.org/badges/grand-total/pct)](https://cran.r-project.org/package=pct)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/pct)](https://cran.r-project.org/package=pct)
+
+By: Robin Lovelace, Layik Hama
 
 The goal of pct is to increase the accessibility and reproducibility of the data produced by the Propensity to Cycle Tool (PCT), a research project and web application hosted at [www.pct.bike](https://www.pct.bike/).
 For an overview of the data provided by the PCT, clicking on the previous link and trying it out is a great place to start.
 An academic [paper](https://www.jtlu.org/index.php/jtlu/article/view/862) on the PCT provides detail on the motivations for and methods underlying the project.
 
-## [stats19](https://docs.ropensci.org/stats19/) 
+## [stats19](https://docs.ropensci.org/stats19/)
 
 <a href='https://docs.ropensci.org/stats19/'><img src='https://raw.githubusercontent.com/ropensci/stats19/master/man/figures/logo.png' align="right" height=180/></a>
 
@@ -55,11 +61,15 @@ An academic [paper](https://www.jtlu.org/index.php/jtlu/article/view/862) on the
 [![](https://cranlogs.r-pkg.org/badges/grand-total/stats19)](https://cran.r-project.org/package=stats19)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/stats19)](https://cran.r-project.org/package=stats19)
 
+By: Robin Lovelace, Malcolm Morgan, Layik Hama, Mark Padgham, David Ranzolin, Adam Sparks
+
 stats19 provides functions for downloading and formatting road crash data. Specifically, it enables access to the UK’s official road traffic casualty database, STATS19. (The name comes from the form used by the police to record car crashes and other incidents resulting in casualties on the roads.)
 
 ## [stplanr](https://docs.ropensci.org/stplanr/) 
 
 <a href='https://docs.ropensci.org/stplanr/'><img src='https://docs.ropensci.org/stplanr/reference/figures/stplanr.png' align="right" height=180/></a>
+
+By: Robin Lovelace
 
 [![](https://badges.ropensci.org/10_status.svg)](https://github.com/ropensci/onboarding/issues/10)
 [![](https://cranlogs.r-pkg.org/badges/grand-total/stplanr)](https://cran.r-project.org/package=stplanr)
