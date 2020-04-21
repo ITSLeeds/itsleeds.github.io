@@ -20,9 +20,15 @@ Downloads of packages published on CRAN
 
 ```{r, echo=FALSE, eval = TRUE}
 x <- dlstats::cran_stats(c("cyclestreets", "opentripplanner", "pct", "stats19","stplanr"))
-
-   ggplot2::ggplot(x, ggplot2::aes(end, downloads, group=package, color=package)) +
-       ggplot2::geom_line() + ggplot2::geom_point(ggplot2::aes(shape=package))
+x <- x[x$end != Sys.Date(),]
+x <- x[x$downloads > 10,]
+ggplot2::ggplot(x, ggplot2::aes(end, downloads, group=package, color=package)) +
+   ggplot2::geom_line() + 
+   ggplot2::geom_point(ggplot2::aes(shape=package)) +
+   #ggplot2::coord_cartesian(ylim=c(0, 4000)) +
+   ggplot2::scale_y_continuous(trans="log2", breaks = c(10,50,100,500,1000,5000)) +
+   ggplot2::xlab("Date") +
+   ggplot2::ylab("Downloads per month (log scale)")
 
 ```
 
